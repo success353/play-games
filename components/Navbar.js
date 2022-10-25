@@ -8,7 +8,7 @@ import { signOut } from "next-auth/react"
 
 const Navbar = ({ auth }) => {
     return (
-        <nav className='relative'>
+        <nav className='relative font-body p-5'>
             <div className='flex px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20'>
                 <h1 className='font-bold'>Aka's Games</h1>
                 <Spacer />
