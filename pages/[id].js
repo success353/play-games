@@ -34,7 +34,7 @@ const id = ({ data }) => {
     return (
         <div>
             <h1 className='text-2xl'>{data.title}</h1>
-            <p>{data.company}</p>
+            <p>{data.publisher}</p>
         </div>
     )
 }
